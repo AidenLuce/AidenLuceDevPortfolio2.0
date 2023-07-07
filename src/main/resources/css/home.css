@@ -35,17 +35,40 @@ nav{
 /*****      MAIN SECTION          *****/
 /**************************************/
 .main{
+    display: flex;
     overflow: hidden;
     background-color: var(--white);
     height: 35rem;
     width: 100%;
 }
+.img-container{
+    height: 100%;
+    width: 30vw;
+}
+.img-container img{
+    height: 100%;
+    width: auto;
+}
 .divider{
-    margin-left: 40vw;
-    width: 125rem;
-    height: 100rem;
-    transform: rotate(45deg);
+    width: 0;
+    height: 0;
+    /*transform: rotate(45deg);*/
+    border-bottom: 35rem solid var(--navy);
+    border-left: 35vw solid transparent;
+
+}
+
+.intro-container-bg{
+    flex-grow: 1;
     background-color: var(--navy);
+    display: flex;
+    align-items: center;
+}
+.intro-container{
+    margin: 5rem 0 0 -10rem;
+    background-color: var(--black);
+    height: 25rem;
+    width: 40rem;
 }
 
 /**************************************/
@@ -68,5 +91,4 @@ footer h2{
 footer div{
     display: flex;
     margin: 0 1rem;
-
 }
