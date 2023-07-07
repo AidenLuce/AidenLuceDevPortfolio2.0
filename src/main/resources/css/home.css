@@ -1,7 +1,8 @@
 html{
     --black: #333;
     --navy: #122436;
-    --white: #EFE7DF
+    --white: #EFE7DF;
+    --gold: #daa520;
 
 }
 body{
@@ -29,6 +30,18 @@ nav{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2.5rem;
+    color: var(--gold);
+    border: solid var(--gold) .1rem;
+    background-color: var(--navy);
+    border-radius: 50%;
 }
 
 /**************************************/
