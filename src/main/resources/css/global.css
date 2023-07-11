@@ -1,0 +1,17 @@
+html{
+    --black: #333;
+    --navy: #122436;
+    --white: #EFE7DF;
+    --gold: #daa520;
+
+}
+body{
+    background-color: var(--black);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+}
