@@ -80,7 +80,7 @@ nav{
 .intro-container{
     display: flex;
     flex-direction: column;
-    margin: 10rem -10vw;
+    margin: 10rem 0 0 -10vw;
     font-size: 1.5rem;
     color: var(--white);
     height: 40rem;
@@ -131,4 +131,48 @@ footer div{
     .intro-container h3{
         font-size: 2vw;
     }
+}
+@media screen and (max-width: 800px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+        height: auto;
+        width: 100%;
+    }
+    .img-container {
+        height: 40rem;
+        width: auto;
+    }
+    .intro-container img{
+        height: 40rem;
+        width: auto
+    }
+    .divider{
+        margin-top: -10rem;
+        border-style: solid;
+        border-width: 0 100vw 10rem 0;
+        border-color: transparent transparent var(--navy) transparent;
+    }
+    .intro-container-bg{
+        width:100%;
+    }
+    .intro-container{
+        flex-direction: column;
+        margin: -2rem 2.5rem 0 2.5rem;
+        height: 20rem;
+        width: 100%;
+    }
+    .intro-container h2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 4rem;
+        border-bottom: solid var(--white) .25rem;
+        margin: 0 0 1rem 0;
+    }
+    .intro-container h3{
+        font-size: 1.5rem;
+    }
+
 }
