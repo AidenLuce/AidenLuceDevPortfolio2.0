@@ -1,0 +1,10 @@
+@media screen and (max-width: 1300px){
+    .intro-container h2{
+        margin: 1rem auto;
+        width: 30vw;
+        font-size: 3rem;
+    }
+    .intro-container h3{
+        font-size: 2vw;
+    }
+}
