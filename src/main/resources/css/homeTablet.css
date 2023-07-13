@@ -1,10 +1,74 @@
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 768px){
+    nav{
+        font-size: 1.5rem;
+    }
+    .logo{
+        font-size: 2rem;
+        height: 3rem;
+        width: 3rem;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+        height: auto;
+        width: 100%;
+    }
+    .img-container {
+        height: 35rem;
+        width: auto;
+    }
+    .intro-container img{
+        height: 35rem;
+        width: auto
+    }
+    .divider{
+        margin-top: -10rem;
+        border-style: solid;
+        border-width: 0 100vw 10rem 0;
+        border-color: transparent transparent var(--navy) transparent;
+    }
+    .intro-container-bg{
+        width:100%;
+        height: 40rem;
+        align-items: flex-start;
+    }
+    .intro-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: -2rem 2.5rem 0 2.5rem;
+        height: 20rem;
+        width: 100%;
+        font-size: 2rem;
+    }
     .intro-container h2{
-        margin: 1rem auto;
-        width: 30vw;
-        font-size: 3rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 5rem;
+        border-bottom: solid var(--gold) .25rem;
+        margin: 0 0 1rem 0;
     }
     .intro-container h3{
-        font-size: 2vw;
+        font-size: 1.9rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        font-size: 1.4rem;
+        color: var(--white);
+        padding: 1rem 0;
+
+    }
+    footer h2{
+        font-size: 2rem;
+        margin:0;
+    }
+    footer p{
+        display: flex;
+        margin: 0 .5rem;
     }
 }
