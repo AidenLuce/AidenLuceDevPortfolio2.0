@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    position: fixed;
+    background-color: var(--navy);
+    color: var(--white);
+    border-bottom: solid var(--gold).25rem;
+    font-size: 2rem;
+    height: 5rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2.5rem;
+    color: var(--gold);
+    border: solid var(--gold) .1rem;
+    background-color: var(--navy);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        font-size: 2rem;
+        height: 3rem;
+        width: 3rem;
+    }
+}

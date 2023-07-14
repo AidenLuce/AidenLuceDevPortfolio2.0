@@ -2,25 +2,26 @@
 <html lang="en"  xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <base href="/">
     <title>Title</title>
-    <link rel="stylesheet" href="../static/css/global.css">
-    <link rel="stylesheet" href="../static/css/homeDesktop.css">
-    <link rel="stylesheet" href="../static/css/homeTablet.css">
-    <link rel="stylesheet" href="../static/css/homeMobile.css">
+    <link rel="stylesheet" href="../static/css/global.css" th:href="@{../static/css/global.css}" type="text/css">
+    <link rel="stylesheet" href="../static/css/homeDesktop.css" th:href="@{../static/css/homeDesktop.css}" type="text/css">
+    <link rel="stylesheet" href="../static/css/homeTablet.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/homeMobile.css" type="text/css">
 </head>
 <body>
     <div class="page-wrapper">
         <nav th:fragment="nav-bar">
-            <div class="logo">AL</div>
-            <div>About Me</div>
-            <div>Experience</div>
-            <div>Projects</div>
-            <div>{Linked In}</div>
-            <div>{Github}</div>
+            <a class="logo">AL</a>
+            <div class="about-me">About Me</div>
+            <div class="experience">Experience</div>
+            <div class="projects">Projects</div>
+            <div class="linkedin">{Linked In}</div>
+            <div class="github">{Github}</div>
         </nav>
         <div class="main">
             <div class="img-container">
-                <img src="../static/img/pfp.png" alt="">
+                <img src="../static/img/pfp.png" th:src="@{../static/img/pfp.png}" alt="">
             </div>
             <div class="divider"></div>
             <div class="intro-container-bg">
