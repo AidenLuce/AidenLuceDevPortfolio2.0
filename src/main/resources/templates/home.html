@@ -2,17 +2,17 @@
 <html lang="en"  xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <base href="/">
+    <base href="/home">
     <title>Title</title>
-    <link rel="stylesheet" href="../static/css/global.css" th:href="@{../static/css/global.css}" type="text/css">
-    <link rel="stylesheet" href="../static/css/homeDesktop.css" th:href="@{../static/css/homeDesktop.css}" type="text/css">
-    <link rel="stylesheet" href="../static/css/homeTablet.css" type="text/css">
-    <link rel="stylesheet" href="../static/css/homeMobile.css" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/global.css}">
+    <link rel="stylesheet" th:href="@{/css/homeDesktop.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/homeTablet.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/homeMobile.css}" type="text/css">
 </head>
 <body>
     <div class="page-wrapper">
         <nav th:fragment="nav-bar">
-            <a class="logo">AL</a>
+            <a class="logo" th:href="@{/home}">AL</a>
             <div class="about-me">About Me</div>
             <div class="experience">Experience</div>
             <div class="projects">Projects</div>
@@ -21,7 +21,7 @@
         </nav>
         <div class="main">
             <div class="img-container">
-                <img src="../static/img/pfp.png" th:src="@{../static/img/pfp.png}" alt="">
+                <img th:src="@{/img/pfp.png}" alt="">
             </div>
             <div class="divider"></div>
             <div class="intro-container-bg">
@@ -43,6 +43,6 @@
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="../static/js/home.js"></script>
+    <script th:src="@{/js/home.js}"></script>
 </body>
 </html>
