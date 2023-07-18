@@ -6,7 +6,7 @@
 <!--    <link rel="stylesheet" th:href="@{/js/partials/navbar.js}">-->
     <link rel="stylesheet" th:href="@{/css/global.css}">
 <!--    <link rel="stylesheet" th:href="@{/css/partials/nav.css}">-->
-    <link rel="stylesheet" th:href="@{/css/partials/navTest.css}">
+    <link rel="stylesheet" th:href="@{/css/partials/navbar.css}">
 
 
 
@@ -14,37 +14,10 @@
 
 </head>
 <body>
-    <div class="page-wrapper">
-        <nav class="nav-container">
-            <a class="logo" th:href="@{home}">AL</a>
-            <div id="menu">
-                <div id="menu-bar" onclick="menuOnClick()">
-                    <div id="bar1" class="bar"></div>
-                    <div id="bar2" class="bar"></div>
-                    <div id="bar3" class="bar"></div>
-                </div>
-                <nav class="nav" id="nav">
-                    <ul>
-                        <li><a class="link about-me" th:href="@{aboutMe}">About Me</a></li>
-                        <li><a class="link experience" th:href="@{experience}">Experience</a></li>
-                        <li><a class="link projects" th:href="@{projects}">Projects</a></li>
-                        <li>
-                            <a th:href="@{https://www.linkedin.com/in/aidenlluce/}">
-                                <img th:src="@{/img/linkedin.png}" alt="LinkedIn">
-                            </a>
-                            <a th:href="@{https://github.com/AidenLuce}">
-                                <img th:src="@{/img/GitHub-logo.png}" alt="LinkedIn">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+<div class="page-wrapper">
+    <nav th:replace="/partials/navbar:: navbar"></nav>
+</div>
 
-            <div class="menu-bg" id="menu-bg"></div>
-        </nav>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script th:src="@{/js/partials/navbar.js}"></script>
-
 </body>
 </html>

@@ -5,17 +5,36 @@
     <title>Partials</title>
 </head>
 <body>
-    <nav th:fragment="nav-bar">
+
+    <nav class="nav-container" th:fragment="navbar">
         <a class="logo" th:href="@{home}">AL</a>
-        <a class="about-me" th:href="@{aboutMe}">About Me</a>
-        <a class="experience" th:href="@{experience}">Experience</a>
-        <a class="projects" th:href="@{projects}">Projects</a>
-        <a th:href="@{https://www.linkedin.com/in/aidenlluce/}">
-            <img th:src="@{/img/linkedin.png}" alt="LinkedIn">
-        </a>
-        <a th:href="@{https://github.com/AidenLuce}">
-            <img th:src="@{/img/GitHub-logo.png}" alt="LinkedIn">
-        </a>
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a class="link about-me" th:href="@{aboutMe}">About Me</a></li>
+                    <li><a class="link experience" th:href="@{experience}">Experience</a></li>
+                    <li><a class="link projects" th:href="@{projects}">Projects</a></li>
+                    <li>
+                        <a th:href="@{https://www.linkedin.com/in/aidenlluce/}">
+                            <img th:src="@{/img/linkedin.png}" alt="LinkedIn">
+                        </a>
+                        <a th:href="@{https://github.com/AidenLuce}">
+                            <img th:src="@{/img/GitHub-logo.png}" alt="LinkedIn">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
     </nav>
+
+
+
 </body>
 </html>
