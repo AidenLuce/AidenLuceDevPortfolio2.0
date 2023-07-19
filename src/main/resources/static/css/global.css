@@ -29,7 +29,7 @@ body{
     padding: 1em;
     width: 10em; height: 4em;
     border-radius: .25em;
-    transform: rotate(-4deg) rotateY(15deg);
+    transform: rotate(-4deg) rotateY(15deg) scaleX(-1);
     background: #629bdd;
     font: 2em/4 Century Gothic, Verdana, sans-serif;
     text-align: center;
@@ -49,7 +49,7 @@ body{
     border: solid 0 transparent;
     border-right: solid 3.5em #f4fbfe;
     border-bottom: solid .25em #629bdd;
-    bottom: .25em; left: 1.25em;
+    bottom: .25em; right: 1.25em;
     width: 0; height: 1em;
     transform: rotate(45deg) skewX(75deg);
 }
