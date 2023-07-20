@@ -2,8 +2,11 @@ html{
     --black: #333;
     --navy: #122436;
     --cobalt: #00f;
+    --light-blue: #629bdd;
     --white: #EFE7DF;
     --gold: #daa520;
+    --dark-gold:#634f2c;
+    --green: #73be73;
 
 }
 body{

@@ -3,6 +3,8 @@ $(function () {
         $(".speech-bubble").css(
             "opacity", "100")
     }, function (){
-        $(".speech-bubble").css("opacity", "0")
+        $(".speech-bubble").css(
+            "opacity", "0",
+        )
     })
 })

@@ -16,10 +16,51 @@
     transition: 0.3s ease;
 }
 
+
+
+
+.speech-bubble {
+    position: absolute;
+    opacity: 0;
+    top: 13rem;
+    left: 31rem;
+    padding: 1em;
+    width: 15em; height: 2em;
+    border-radius: .25em;
+    transform:scaleX(-1);
+    background: var(--light-blue);
+    font: 2em/4 Century Gothic, Verdana, sans-serif;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+.speech-bubble:before, .speech-bubble:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+}
+.speech-bubble:after {
+    top: 0; right: 0; bottom: 0; left: 0;
+    border-radius: inherit;
+    transform: rotate(2deg) translate(.35em, -.15em) scale(1.02);
+    background: #f4fbfe;
+}
+.speech-bubble:before {
+    border: solid 0 transparent;
+    border-right: solid 3.5em #f4fbfe;
+    border-bottom: solid .25em var(--light-blue);
+    bottom: .25em; right: 1.25em;
+    width: 0; height: 1em;
+    transform: rotate(25deg) skewX(75deg);
+}
+
+p.bubble-text{
+    transform: scaleX(-1);
+    margin-top: -2rem;
+}
+
 .divider{
     width: 0;
     height: 0;
-    /*transform: rotate(45deg);*/
     border-bottom: 45rem solid var(--navy);
     border-left: 35vw solid transparent;
 }
