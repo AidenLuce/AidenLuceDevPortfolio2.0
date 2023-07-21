@@ -10,10 +10,17 @@
     height: 100%;
     width: 30vw;
 }
+.tag-img{
+    position: absolute;
+}
+
+
 .pfp {
     height: 100%;
     width: auto;
     transition: 0.3s ease;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -28,10 +35,11 @@
     width: 15em; height: 2em;
     border-radius: .25em;
     transform:scaleX(-1);
-    background: var(--light-blue);
+    background: var(--gold);
     font: 2em/4 Century Gothic, Verdana, sans-serif;
     text-align: center;
     transition: .3s ease-in-out;
+    z-index: 1;
 }
 .speech-bubble:before, .speech-bubble:after {
     position: absolute;
@@ -47,7 +55,7 @@
 .speech-bubble:before {
     border: solid 0 transparent;
     border-right: solid 3.5em #f4fbfe;
-    border-bottom: solid .25em var(--light-blue);
+    border-bottom: solid .25em var(--gold);
     bottom: .25em; right: 1.25em;
     width: 0; height: 1em;
     transform: rotate(25deg) skewX(75deg);
@@ -63,6 +71,7 @@ p.bubble-text{
     height: 0;
     border-bottom: 45rem solid var(--navy);
     border-left: 35vw solid transparent;
+    z-index: 1;
 }
 
 .intro-container-bg{
@@ -70,6 +79,7 @@ p.bubble-text{
     background-color: var(--navy);
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 .intro-container{
     display: flex;

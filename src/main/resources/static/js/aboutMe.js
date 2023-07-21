@@ -1,4 +1,9 @@
 $(function () {
+    $(document).ready(function (){
+
+    })
+
+
     $(".hover").hover(function(){
         $(".speech-bubble").css(
             "opacity", "100")
