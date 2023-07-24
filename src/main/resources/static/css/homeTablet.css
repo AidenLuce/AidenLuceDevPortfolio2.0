@@ -63,4 +63,12 @@
         display: flex;
         margin: 0 .5rem;
     }
+    .tag-img {
+        position: absolute;
+        display: block;
+        height: 35rem;
+        left: 0;
+        width: 100vw;
+        opacity: 80%;
+    }
 }
