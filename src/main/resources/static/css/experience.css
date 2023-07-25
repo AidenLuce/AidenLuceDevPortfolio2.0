@@ -1,0 +1,35 @@
+
+main{
+    margin-top: 5rem;
+}
+
+h2{
+    width: fit-content;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 4rem;
+    border-top: solid var(--gold) .5rem;
+    border-bottom: solid var(--gold) .5rem;
+
+}
+
+.vert-line{
+    margin: auto;
+    padding: 0;
+    height: 200rem;
+    width: 0.5rem;
+    background-color: var(--gold);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.vert-line li{
+    height: 2rem;
+    width: 2rem;
+    margin-left: -1rem ;
+    border: solid var(--gold) .25rem;
+    background-color: var(--navy);
+    border-radius: 50%;
+}
