@@ -35,13 +35,15 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 .codeup-container{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 40vw;
     border: solid var(--gold) 0.25rem;
     padding: 1rem;
+    position: absolute;
 
 }
 /*.codeup-container:nth-child(odd){*/
@@ -51,18 +53,29 @@ h2{
 /*    margin: -10rem;*/
 /*}*/
 li img{
-    height: 10rem;
-    width: auto;
-}
-.name{
+    width: 40vw;
     position: absolute;
 }
-ul>li:nth-child(odd) .name{
-    margin-left: -10rem;
+/*.name{*/
+/*    position: absolute;*/
+/*}*/
+ul>li:nth-child(odd) img{
+    /*margin-left: -15rem;*/
+    right: 5rem;
 }
-ul>li:nth-child(even) .name{
-    margin-right: 5rem;
+ul>li:nth-child(even) img{
+    /*margin-left: 10rem;*/
+    left: 5rem
 }
+ul>li:nth-child(odd) .codeup-container{
+    left: 5rem;
+    /*margin-left: 10rem;*/
+}
+ul>li:nth-child(even) .codeup-container{
+    /*margin-left: -15rem;*/
+    right: 5rem;
+}
+
 .invisible{
     opacity: 0;
     transition:  1s;

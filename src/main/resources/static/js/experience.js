@@ -5,7 +5,7 @@ $('.invisible').viewportChecker({
 
 
     // The offset of the elements (let them appear earlier or later)
-    offset: 100,
+    offset: 250,
 
     // Add the possibility to remove the class if the elements are not visible
     repeat: true,
