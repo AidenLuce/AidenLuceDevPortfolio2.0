@@ -40,8 +40,10 @@ h2{
 .codeup-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 40vw;
     border: solid var(--gold) 0.25rem;
+    box-sizing: border-box;
     padding: 1rem;
     position: absolute;
 
