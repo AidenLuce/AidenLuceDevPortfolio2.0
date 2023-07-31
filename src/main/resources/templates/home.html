@@ -9,6 +9,7 @@
     <link rel="stylesheet" th:href="@{/css/homeDesktop.css}" type="text/css">
     <link rel="stylesheet" th:href="@{/css/homeTablet.css}" type="text/css">
     <link rel="stylesheet" th:href="@{/css/homeMobile.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/partials/footer.css}">
 </head>
 <body>
     <div class="page-wrapper">
@@ -28,15 +29,16 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <h2>Think I'd be a good fit?</h2>
-            <p>Feel free to give me a call, text, or email!</p>
-            <div>
-                <div>+1(210)849-6996</div>
-                <div>aiden.l.luce@gmail.com</div>
-            </div>
+        <footer th:replace="/partials/footer:: footer"></footer>
+        <!--        <footer>-->
+<!--            <h2>Think I'd be a good fit?</h2>-->
+<!--            <p>Feel free to give me a call, text, or email!</p>-->
+<!--            <div>-->
+<!--                <div>+1(210)849-6996</div>-->
+<!--                <div>aiden.l.luce@gmail.com</div>-->
+<!--            </div>-->
 
-        </footer>
+<!--        </footer>-->
     </div>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script th:src="@{/js/partials/navbar.js}"></script>

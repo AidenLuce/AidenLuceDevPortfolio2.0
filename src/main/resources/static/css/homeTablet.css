@@ -44,25 +44,25 @@
     .intro-container h3{
         font-size: 1.9rem;
     }
-    footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 7rem;
-        font-size: 1.4rem;
-        color: var(--white);
-        padding: 1rem 0;
+    /*footer{*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    height: 7rem;*/
+    /*    font-size: 1.4rem;*/
+    /*    color: var(--white);*/
+    /*    padding: 1rem 0;*/
 
-    }
-    footer h2{
-        font-size: 2rem;
-        margin:0;
-    }
-    footer p{
-        display: flex;
-        margin: 0 .5rem;
-    }
+    /*}*/
+    /*footer h2{*/
+    /*    font-size: 2rem;*/
+    /*    margin:0;*/
+    /*}*/
+    /*footer p{*/
+    /*    display: flex;*/
+    /*    margin: 0 .5rem;*/
+    /*}*/
     .tag-img {
         position: absolute;
         display: block;

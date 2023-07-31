@@ -120,22 +120,22 @@ p.bubble-text{
 /**************************************/
 /*****        FOOTER              *****/
 /**************************************/
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #122436;
-    border-top: solid var(--gold) .25rem;
-    width: 100%;
-    height: 15.5rem;
-    font-size: 1.5rem;
-    color: var(--white);
-}
-footer h2{
-    margin: 0;
-}
-footer div{
-    display: flex;
-    margin: 0 1rem;
-}
+/*footer{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: #122436;*/
+/*    border-top: solid var(--gold) .25rem;*/
+/*    width: 100%;*/
+/*    height: 15.5rem;*/
+/*    font-size: 1.5rem;*/
+/*    color: var(--white);*/
+/*}*/
+/*footer h2{*/
+/*    margin: 0;*/
+/*}*/
+/*footer div{*/
+/*    display: flex;*/
+/*    margin: 0 1rem;*/
+/*}*/
