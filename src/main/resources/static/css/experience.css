@@ -44,6 +44,8 @@ h2{
     width: 40vw;
     border: solid var(--gold) 0.25rem;
     box-sizing: border-box;
+    background: var(--blue);
+    color: var(--white);
     padding: 1rem;
     position: absolute;
 
@@ -56,6 +58,8 @@ h2{
 /*}*/
 li img{
     width: 40vw;
+    border: solid var(--gold) 0.25rem;
+    box-sizing: border-box;
     position: absolute;
 }
 /*.name{*/
