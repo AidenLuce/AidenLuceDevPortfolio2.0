@@ -17,7 +17,7 @@ h2{
 .vert-line{
     margin: auto;
     padding: 0;
-    height: 200rem;
+    height: 150rem;
     width: 0.5rem;
     background-color: var(--gold);
     list-style: none;
@@ -37,7 +37,7 @@ h2{
     justify-content: center;
     position: relative;
 }
-.codeup-container{
+.description-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,11 +73,11 @@ ul>li:nth-child(even) img{
     /*margin-left: 10rem;*/
     left: 5rem
 }
-ul>li:nth-child(odd) .codeup-container{
+ul>li:nth-child(odd) .description-container{
     left: 5rem;
     /*margin-left: 10rem;*/
 }
-ul>li:nth-child(even) .codeup-container{
+ul>li:nth-child(even) .description-container{
     /*margin-left: -15rem;*/
     right: 5rem;
 }
