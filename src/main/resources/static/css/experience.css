@@ -19,9 +19,8 @@ main{
     position: fixed;
     width: 100vw;
     overflow: hidden;
-    opacity: 50%;
+    opacity: 20%;
     left: 0;
-    display: none;
 }
 .codeup-bg img{
     position: relative;
@@ -42,7 +41,6 @@ main{
     flex-direction: column;
     justify-content: space-around;
     position: relative;
-    z-index: 2;
 }
 .vert-line li{
     height: 2rem;
