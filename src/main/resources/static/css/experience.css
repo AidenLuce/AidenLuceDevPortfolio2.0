@@ -3,7 +3,8 @@ main{
     margin-top: 5rem;
 }
 
-h2{
+
+.header-section{
     width: fit-content;
     margin: 2rem auto 0 auto;
     padding: 1rem;
@@ -11,8 +12,24 @@ h2{
     font-size: 4rem;
     border-top: solid var(--gold) .5rem;
     border-bottom: solid var(--gold) .5rem;
-
+    position: relative;
+    z-index: 2;
 }
+.codeup-bg{
+    position: fixed;
+    width: 100vw;
+    overflow: hidden;
+    opacity: 50%;
+    left: 0;
+    display: none;
+}
+.codeup-bg img{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .vert-line{
     margin: auto;
@@ -24,6 +41,8 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
+    z-index: 2;
 }
 .vert-line li{
     height: 2rem;
@@ -56,7 +75,7 @@ h2{
 /*.codeup-container:nth-child(even){*/
 /*    margin: -10rem;*/
 /*}*/
-li img{
+li .degree{
     width: 40vw;
     border: solid var(--gold) 0.25rem;
     box-sizing: border-box;

@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Experience</title>
-<!--    <link rel="stylesheet" th:href="@{/js/partials/navbar.js}">-->
     <link rel="stylesheet" th:href="@{/css/global.css}">
-<!--    <link rel="stylesheet" th:href="@{/css/partials/nav.css}">-->
     <link rel="stylesheet" th:href="@{/css/partials/navbar.css}">
     <link rel="stylesheet" th:href="@{/css/experience.css}">
     <link rel="stylesheet" th:href="@{/css/partials/footer.css}">
-
-
-    <!--    <link rel="stylesheet" href="../static/css/nav.css">-->
 
 </head>
 <body>
 <div class="page-wrapper">
     <nav th:replace="/partials/navbar:: navbar"></nav>
     <main>
-        <h2>Education</h2>
+        <h2 class="header-section">Education</h2>
         <ul class="vert-line">
             <li class="invisible">
-                <img th:src="@{/img/codeup.jpeg}" alt="">
+                <div  class="codeup-bg">
+                    <img th:src="@{/img/codeup.jpeg}" alt="" >
+                </div>
+                <img class="degree" th:src="@{/img/codeup.jpeg}" alt="">
                 <div class="description-container">
                     <h1 class="name">Codeup</h1>
                     <p>Certificate - Web Development  |  Aug 2022 - Jan 2023</p>
@@ -29,7 +27,7 @@
                 </div>
             </li>
             <li class="invisible">
-                <img th:src="@{/img/sac.jpeg}" alt="">
+                <img class="degree" th:src="@{/img/sac.jpeg}" alt="">
                 <div class="description-container">
                     <h1 class="name">San Antonio College</h1>
                     <p>Associate of Arts (AA)  |  Aug 2018 - May 2022</p>
@@ -37,7 +35,7 @@
                 </div>
             </li>
             <li class="invisible">
-                <img th:src="@{/img/travis.jpeg}" alt="">
+                <img  class="degree" th:src="@{/img/travis.jpeg}" alt="">
                 <div class="description-container">
                     <h1 class="name">Travis ECHS</h1>
                     <p>High School Diploma  |  Aug 2018 - May 2022</p>
@@ -46,24 +44,24 @@
             </li>
         </ul>
 
-        <h2>Experience</h2>
+        <h2 class="header-section">Experience</h2>
         <ul class="vert-line">
             <li class="invisible">
-                <img th:src="@{/img/simple-tag.png}" alt="">
+                <img class="degree" th:src="@{/img/simple-tag.png}" alt="">
                 <div class="description-container">
                     <h1 class="name">Dominos</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur autem consequuntur deserunt doloremque dolores eveniet excepturi harum, ipsa magnam magni nemo nesciunt obcaecati, quae quasi quidem similique, soluta voluptatibus.</p>
                 </div>
             </li>
             <li class="invisible">
-                <img th:src="@{/img/simple-tag.png}" alt="">
+                <img class="degree" th:src="@{/img/simple-tag.png}" alt="">
                 <div class="description-container">
                     <h1 class="name">Panthers Robotics Club</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur autem consequuntur deserunt doloremque dolores eveniet excepturi harum, ipsa magnam magni nemo nesciunt obcaecati, quae quasi quidem similique, soluta voluptatibus.</p>
                 </div>
             </li>
             <li class="invisible">
-                <img th:src="@{/img/simple-tag.png}" alt="">
+                <img class="degree" th:src="@{/img/simple-tag.png}" alt="">
                 <div class="description-container">
                     <h1 class="name">Quest for Learning</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur autem consequuntur deserunt doloremque dolores eveniet excepturi harum, ipsa magnam magni nemo nesciunt obcaecati, quae quasi quidem similique, soluta voluptatibus.</p>

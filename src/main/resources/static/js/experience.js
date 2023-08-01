@@ -3,7 +3,6 @@ $('.invisible').viewportChecker({
     classToAdd: 'visible',
     classToRemove:'visible',
 
-
     // The offset of the elements (let them appear earlier or later)
     offset: 250,
 
