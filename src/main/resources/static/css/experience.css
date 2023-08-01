@@ -16,17 +16,19 @@ main{
     z-index: 2;
 }
 .codeup-bg{
-    position: fixed;
+    position: absolute;
     width: 100vw;
     overflow: hidden;
-    opacity: 20%;
-    left: 0;
+    opacity: 50%;
+    z-index: -2;
 }
 .codeup-bg img{
-    position: relative;
+    position: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    left: 0;
+    top: 0;
 }
 
 
@@ -82,11 +84,11 @@ li .degree{
 /*.name{*/
 /*    position: absolute;*/
 /*}*/
-ul>li:nth-child(odd) img{
+ul>li:nth-child(odd) .degree{
     /*margin-left: -15rem;*/
     right: 5rem;
 }
-ul>li:nth-child(even) img{
+ul>li:nth-child(even) .degree{
     /*margin-left: 10rem;*/
     left: 5rem
 }
