@@ -14,13 +14,16 @@ $(function (){
 
             // Callback to do after a class was added to an element. Action will return "add" or "remove", depending if the class was added or removed
             callbackFunction: function(elem, action){}
-        },
-        // $('.codeup-bg').viewportChecker({
-        //     classToAdd: "visible",
-        //     classToRemove: 'visible',
-        //     repeat: true,
-        // })
-    );
+        });
+    $('.codeup').on('click', ()=>{
+        $('.codeupCover').toggleClass("uncover")
+    })
+    $('.sac').on('click', ()=>{
+        $('.sacCover').toggleClass("uncover")
+    })
+    $('.travis').on('click', ()=>{
+        $('.travisCover').toggleClass("uncover")
+    })
 })
 
 
