@@ -2,7 +2,7 @@ $(function (){
     $(".logo").hover(function (){
         $(this).addClass("golden-text").css("border-color", "#634f2c")
     }, function (){
-        $(this).removeClass("golden-text").css("border-color", "var(--gold)")
+        $(this).removeClass("golden-text").css("border-color", "var(--gold)", "box-sizing", "border-box")
     })
 })
 function menuOnClick() {
