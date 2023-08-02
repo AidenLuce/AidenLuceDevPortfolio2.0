@@ -15,21 +15,35 @@ main{
     position: relative;
     z-index: 2;
 }
-.codeup-bg{
-    position: absolute;
-    width: 100vw;
+.dynamic-bg{
+    /*position: absolute;*/
+    /*overflow: hidden;*/
+    /*opacity: 50%;*/
+    /*z-index: -2;*/
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     opacity: 50%;
-    z-index: -2;
+    z-index: -3;
 }
-.codeup-bg img{
-    position: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    left: 0;
-    top: 0;
+.dynamic-bg img{
+    /*position: fixed;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    width: 150rem;
+    height: 100%;
 }
+
 
 
 .vert-line{
@@ -78,6 +92,7 @@ main{
 li .degree{
     width: 40vw;
     border: solid var(--gold) 0.25rem;
+    z-index: 2;
     box-sizing: border-box;
     position: absolute;
 }
