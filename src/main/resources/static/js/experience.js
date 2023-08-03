@@ -17,6 +17,7 @@ $(function (){
         });
     $('.codeup').on('click', ()=>{
         $('.codeupCover').toggleClass("uncover")
+        $('.click').css("visibility", "hidden")
     })
     $('.sac').on('click', ()=>{
         $('.sacCover').toggleClass("uncover")
