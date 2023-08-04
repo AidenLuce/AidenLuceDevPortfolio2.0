@@ -49,7 +49,7 @@ main{
 .vert-line{
     margin: auto;
     padding: 0;
-    height: 100rem;
+    height: 110rem;
     width: 0.5rem;
     background-color: var(--gold);
     list-style: none;

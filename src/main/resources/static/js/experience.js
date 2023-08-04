@@ -25,6 +25,15 @@ $(function (){
     $('.travis').on('click', ()=>{
         $('.travisCover').toggleClass("uncover")
     })
+    $('.dominos').on('click', ()=>{
+        $('.dominosCover').toggleClass("uncover")
+    })
+    $('.robotics').on('click', ()=>{
+        $('.roboticsCover').toggleClass("uncover")
+    })
+    $('.learning').on('click', ()=>{
+        $('.learningCover').toggleClass("uncover")
+    })
 })
 
 
