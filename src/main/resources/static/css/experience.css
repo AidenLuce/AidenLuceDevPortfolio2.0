@@ -58,6 +58,9 @@ main{
     justify-content: space-around;
     position: relative;
 }
+.ul2{
+    height: 70rem;
+}
 .vert-line li{
     height: 2rem;
     width: 2rem;
