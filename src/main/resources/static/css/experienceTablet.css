@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .header-section{
+        margin: 2rem 0 0 3rem;
+    }
+    .vert-line{
+        margin: 0 0 0 5rem;
+        height: 150rem;
+    }
+    ul>li:nth-child(odd) .degree {
+        /* margin-left: -15rem; */
+        left: 5rem;
+        width: 60vw;
+    }
+    .degree{
+        margin-bottom: 22.5rem;
+    }
+    .description-container{
+        width: 60vw;
+        margin-top: 15rem;
+    }
+
+}
