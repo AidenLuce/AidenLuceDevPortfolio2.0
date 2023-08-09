@@ -1,6 +1,14 @@
 @media screen and (max-width: 768px) {
     .header-section{
-        margin: 2rem 0 0 3rem;
+        margin: 2rem 0 0 5rem;
+        border-radius: 0 5rem 5rem 0;
+        /*border-top-right-radius: 5rem;*/
+        /*border-left: transparent;*/
+        /*border-bottom-right-radius: 5rem;*/
+
+    }
+    .sec2{
+        margin-top: 0;
     }
     .vert-line{
         margin: 0 0 0 5rem;

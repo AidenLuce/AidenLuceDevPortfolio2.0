@@ -4,19 +4,20 @@ main{
 }
 
 
-.header-section{
+.header-section {
     width: fit-content;
     margin: 2rem auto 0 auto;
     padding: 1.5rem;
     color: var(--white);
     font-size: 5rem;
     background-image: linear-gradient(to bottom right, var(--clear-cobalt), var(--clear-gold));
-    border-top: solid var(--gold) .5rem;
-    border-bottom: solid var(--gold) .5rem;
-    border-top-left-radius: 5rem;
-    border-bottom-right-radius: 5rem;
+    border: solid var(--gold) 0.5rem;
+    border-radius: 5rem;
     position: relative;
     z-index: 2;
+}
+.sec2{
+    margin-top: 0;
 }
 .dynamic-bg{
     /*position: absolute;*/
@@ -87,8 +88,39 @@ main{
     color: var(--white);
     padding: 1rem;
     position: absolute;
+    z-index: 2;
 
 }
+h1.name {
+    display: flex;
+    justify-content: center;
+    border: solid var(--gold) 0.15vw;
+    border-radius: 1rem;
+    font-size: 4vw;
+    text-decoration: none;
+    color: var(--white);
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+p.info {
+    margin: 1vw 0 2vw 0;
+    /* margin-bottom: 2vw; */
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+p.description {
+    margin: 0;
+    font-size: 2vw;
+}
+
+
+
+
+
+
 /*.codeup-container:nth-child(odd){*/
 /*    margin: 5rem;*/
 /*}*/
