@@ -10,6 +10,9 @@ html{
     --dark-gold:#634f2c;
     --green: #73be73;
 
+    --clear-cobalt: rgba(0,0,255,50%);
+    --clear-gold: rgba(218,165,32,50%)
+
 }
 body{
     background-color: var(--black);

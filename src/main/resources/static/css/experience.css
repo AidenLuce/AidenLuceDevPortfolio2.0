@@ -7,11 +7,14 @@ main{
 .header-section{
     width: fit-content;
     margin: 2rem auto 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     color: var(--white);
-    font-size: 4rem;
+    font-size: 5rem;
+    background-image: linear-gradient(to bottom right, var(--clear-cobalt), var(--clear-gold));
     border-top: solid var(--gold) .5rem;
     border-bottom: solid var(--gold) .5rem;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
     position: relative;
     z-index: 2;
 }

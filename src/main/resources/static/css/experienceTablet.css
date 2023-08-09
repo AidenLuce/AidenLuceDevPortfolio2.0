@@ -4,19 +4,50 @@
     }
     .vert-line{
         margin: 0 0 0 5rem;
-        height: 150rem;
+        height: 130rem;
     }
     ul>li:nth-child(odd) .degree {
         /* margin-left: -15rem; */
         left: 5rem;
         width: 60vw;
     }
+    ul>li:nth-child(even) .degree {
+        left: 5rem;
+        width: 60vw;
+    }
+    .click{
+        margin: 0 0 15rem 15rem;
+    }
+    ul>li:nth-child(even) .description-container {
+        /* margin-left: -15rem; */
+        left: 5rem;
+    }
     .degree{
         margin-bottom: 22.5rem;
     }
     .description-container{
         width: 60vw;
-        margin-top: 15rem;
+        margin-top: 19rem;
+    }
+    h1.name {
+        margin: 0;
+        font-size: 5vw;
+    }
+    p.info {
+        margin: 1vw 0;
+    }
+    p.description {
+        margin: 2vw 0;
+        font-size: 1.25rem;
+    }
+    .ul2{
+        height: 80rem;
+    }
+    img.degree.robotics {
+        margin-bottom: 15rem;
+    }
+    img.degree.learning {
+        margin-bottom: 10rem;
     }
 
 }
