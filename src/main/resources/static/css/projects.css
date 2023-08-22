@@ -1,4 +1,117 @@
-h1{
+.page-wrapper{
+    height: 100vh
+}
+main{
+    margin-top: 5rem;
+    height: 100%;
+}
+
+.projects{
+    width: fit-content;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
     color: var(--white);
-    margin-top: 7rem;
+    font-size: 3rem;
+    background-image: linear-gradient(to bottom right, var(--clear-cobalt), var(--clear-gold));
+    border-top: solid var(--gold) 0.5rem;
+    border-bottom: solid var(--gold) 0.5rem;
+    position: relative;
+}
+.jumbo{
+    /*color: var(--white);*/
+    font-size: 10rem;
+}
+.project-container {
+    height: 40rem;
+    width: 80%;
+    margin: 0 auto 5rem auto;
+}
+.portfolio{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+}
+.video{
+    width: 50%;
+    filter: brightness(.5);
+    border-top: solid var(--gold) .25rem;
+    border-bottom: solid var(--gold) .25rem;
+}
+.left-video{
+    border-left: solid var(--gold) .25rem;
+}
+.right-video{
+    border-right: solid var(--gold) .25rem;
+}
+.filter {
+    position: absolute;
+    height: 27.5vw;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descriptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+.desc {
+    padding: 0.5rem;
+    width: 40%;
+    color: var(--white);
+    font-size: 1.5rem;
+    border: solid var(--gold) .2rem;
+}
+
+
+
+.squadup{
+    color: var(--white);
+    text-shadow: 0 0 30px #3d8c40, 0 0 40px #3d8c40;
+}
+.reactSL{
+    color: var(--white);
+    text-shadow: 0 0 30px #339999, 0 0 40px #339999;
+}
+.port{
+    color: var(--white);
+    text-shadow: 0 0 30px var(--gold), 0 0 40px var(--gold);
+}
+
+
+
+.glow-text {
+    color: #fff;
+    animation: glow-text 20s linear 0s infinite;
+}
+
+@keyframes glow-text {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+    }
+    12.5% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff8000, 0 0 40px #ff8000, 0 0 50px #ff8000, 0 0 60px #ff8000, 0 0 70px #ff8000;
+    }
+    25% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffea00, 0 0 40px #ffea00, 0 0 50px #ffea00, 0 0 60px #ffea00, 0 0 70px #ffea00;
+    }
+    37.5% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #37ff00, 0 0 40px #37ff00, 0 0 50px #37ff00, 0 0 60px #37ff00, 0 0 70px #37ff00;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00fff7, 0 0 40px #00fff7, 0 0 50px #00fff7, 0 0 60px #00fff7, 0 0 70px #00fff7;
+    }
+    65.5% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0077ff, 0 0 40px #0077ff, 0 0 50px #0077ff, 0 0 60px #0077ff, 0 0 70px #0077ff;
+    }
+    75% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8251ff, 0 0 40px #8251ff, 0 0 50px #8251ff, 0 0 60px #8251ff, 0 0 70px #8251ff;
+    }
+    87.5% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e600ff, 0 0 40px #e600ff, 0 0 50px #e600ff, 0 0 60px #e600ff, 0 0 70px #e600ff;
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+    }
 }
